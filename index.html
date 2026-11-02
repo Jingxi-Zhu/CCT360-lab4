@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Season Is Your Soul?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- Welcome page -->
+        <section id="welcome-page">
+            <h1>What Season Is Your Soul?</h1>
+            <p class="subtitle">
+                Everyone has a season that reflects who they are.
+                Answer a few questions to discover yours.
+            </p>
+
+            <div class="season-gallery">
+                <img src="images/spring.jpg" alt="Spring">
+                <img src="images/summer.jpg" alt="Summer">
+                <img src="images/autumn.jpg" alt="Autumn">
+                <img src="images/winter.jpg" alt="Winter">
+            </div>
+
+            <button id="start-btn">Start Quiz</button>
+        </section>
+
+
+        <!-- Quiz page -->
+        <section id="quiz-page" class="hidden">
+
+            <p id="question-number">Question 1 of 4</p>
+
+            <h2 id="question-text"></h2>
+
+            <div id="answer-options">
+                <!-- Answer buttons will be added with JavaScript -->
+            </div>
+
+            <p id="progress-text"></p>
+
+        </section>
+
+
+        <!-- Result page -->
+        <section id="result-page" class="hidden">
+
+            <p class="result-label">Your Soul Season Is...</p>
+
+            <h2 id="result-title"></h2>
+
+            <img id="result-image" src="images/spring.jpg" alt="Season result">
+
+            <p id="result-description"></p>
+
+            <button id="restart-btn">Take the Quiz Again</button>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>What Season Is Your Soul? | Personality Quiz</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
